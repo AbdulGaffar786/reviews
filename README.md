@@ -31,3 +31,17 @@ This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://w
 ### Note about ES6
 
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future-proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
+
+##Project Instructions
+- In this project, a static webpage that lacks accessibility is given to be converted into a mobile-ready web application. The design must be responsive on different sized displays and accessible for screen reader use. It will also be added a service worker to begin the process of creating a seamless offline experience for the users.
+
+
+##Requirements
+- App includes all requirements, including restaurant information, customer reviews and a new review form.
+- App is equally functional on mobile and desktop, using responsive design to ensure its displayed in a useable state.
+- All content-related images include appropriate alternate text.
+- Focus is appropriately managed allowing users to noticeably tab through each of the important elements of the page.
+- Modal or interstitial windows appropriately lock focus.
+- Elements on the page use the appropriate semantic elements. For those elements in which a semantic element is not available, appropriate ARIA roles are defined.
+- Color selections and contrast are made with accessibility in mind.
+- App includes a build process (such as Grunt or Gulp). Assets are minimized and concatenated as appropriate.
