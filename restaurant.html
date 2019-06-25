@@ -17,10 +17,10 @@
   <!-- Beginning header -->
   <header>
     <!-- Beginning nav -->
-    <nav>
+    <nav aria-label="breadcrumb" id="breadcrumb">
       <h2><a href="/">Restaurant Reviews</a></h2>
       <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb">
+    <ul>
       <li><a href="./">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -33,7 +33,7 @@
   <main id="maincontent">
     <!-- Beginning map -->
     <section id="map-container">
-      <div id="map"></div>
+      <div id="map" role="application"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
@@ -43,7 +43,7 @@
         <p id="restaurant-cuisine"></p>
       </div>
       <div class="child2">
-        <h1 id="restaurant-name"></h1>
+        <h2 id="restaurant-name"></h2>
         <p id="restaurant-address"></p>
         <table id="restaurant-hours"></table>
       </div>
